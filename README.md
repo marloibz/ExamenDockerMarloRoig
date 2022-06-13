@@ -53,12 +53,15 @@ Al finalizar los ejericios del apartado 1 realizo los comandos :
 3. Ahora creo y compruebo que esta creado el archivo Dockerfile
 
 ![Captura](https://user-images.githubusercontent.com/91874499/173307951-82ac7681-18b8-474d-ac78-941a5cca42d8.PNG)
+
 4. Con la instrucción : vi Dockerfile editamso el archivo (no he podido hacer de tomcat porque la maquina se me paraba todo el rato y no me dejaba hacer el build):
 - La imagen de origen que será :debian:latest
 ![Captura](https://user-images.githubusercontent.com/91874499/173312468-895891e7-5f98-42a0-a040-9ee6eabcb24d.PNG)
+
 5.Ahora creamos la imagen y le ponemos de nombre: debian-m
 
 ![Captura](https://user-images.githubusercontent.com/91874499/173312841-fa9462b0-ff36-477f-810b-089dd5e47a19.PNG)
+
 6. Nos logeamos para poder hacer el push
 ![Captura](https://user-images.githubusercontent.com/91874499/173313057-7b01c89b-cda9-4c30-9b9a-7489ff885d25.PNG)
 7. Ponemos a la imagen el nombre de usuario nuestro y comprobamos que se ha generado correctamente
