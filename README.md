@@ -25,6 +25,16 @@ Así es como queda la consola al finalizar la tarea
 ![Captura](https://user-images.githubusercontent.com/91874499/173304976-a9d4f71c-29d0-4163-a900-cbc605e8ed50.PNG)
 
 ### Ejercicio 3
+1. Ejecutamos el comando que indican y nos muestra lo siguiente:
+![Captura](https://user-images.githubusercontent.com/91874499/173305387-6f9d5a7a-ceb3-4ea9-85d4-f073663bf197.PNG)
+
+Vemos que se crea un servidor Web Apache 2.4 en la ip mostrad:127.17.0.2
+
 ### Ejercicio 4
+1. Ejecutamos el comando :docker run -it -w /etc debian:9 ls , como no tenemos la imagen con la misma instrucción se descargará la imagen
+Para que muestre el contenido de una carpeta establecida con el parámetro -w , yo he puesto /etc
+![Captura](https://user-images.githubusercontent.com/91874499/173306264-f5c45dbe-a2ee-44c9-9b62-6a8ae600a439.PNG)
+
+
 ## Apartado 2
 ### Dockerfile Tomcat
