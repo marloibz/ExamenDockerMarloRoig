@@ -36,5 +36,14 @@ Para que muestre el contenido de una carpeta establecida con el parámetro -w , 
 ![Captura](https://user-images.githubusercontent.com/91874499/173306264-f5c45dbe-a2ee-44c9-9b62-6a8ae600a439.PNG)
 
 
+Al finalizar los ejericios del apartado 1 realizo los comandos :
+- Docker ps (muetra los contenedores activos) que no hay ninguno 
+- Dcoker ps -a (muestra todos los contenedores que hayamos usado) hay unos cuantos junto con unas pruebas realizadas
+- Docker images (muestras las imagenes descargadas) hay 4
+
+![Captura](https://user-images.githubusercontent.com/91874499/173307291-445ea61b-14cd-4440-b84f-093fd126e9be.PNG)
+
+
 ## Apartado 2
+
 ### Dockerfile Tomcat
