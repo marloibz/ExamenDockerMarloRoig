@@ -2,9 +2,9 @@
 
 ## Apartado 1 
 ### Ejericio 1
-1.Descargamos la imagen que nos piden es esta caso ubuntu:18.04
+1. Descargamos la imagen que nos piden es esta caso ubuntu:18.04
 ![Captura](https://user-images.githubusercontent.com/91874499/173302394-5c26c435-3315-4926-ae1d-0cbb868c52ef.PNG)
-2.Realizamos un docker images para ver que se haya descargado la imagen correctamente 
+2. Realizamos un docker images para ver que se haya descargado la imagen correctamente 
 ![Captura](https://user-images.githubusercontent.com/91874499/173302554-63dd0c3d-45cd-42ea-b99d-c1b002a18240.PNG)
 3. Ejecutamos el contener 
 ![Captura](https://user-images.githubusercontent.com/91874499/173302914-d72f42e8-e9d6-42c5-8273-2338d74238a3.PNG)
@@ -47,3 +47,28 @@ Al finalizar los ejericios del apartado 1 realizo los comandos :
 ## Apartado 2
 
 ### Dockerfile Tomcat
+1. Empezamos creando un reposidotrio para guardar el DockerFile que lo llamaré repoExamen
+2. Miro que se haya creado y me dirijo a él
+![Captura](https://user-images.githubusercontent.com/91874499/173307707-fad09e7d-4b98-4ac6-b01b-fa99a1b2617a.PNG)
+3. Ahora creo y compruebo que esta creado el archivo Dockerfile
+![Captura](https://user-images.githubusercontent.com/91874499/173307951-82ac7681-18b8-474d-ac78-941a5cca42d8.PNG)
+4. Con la instrucción : vi Dockerfile editamso el archivo (no he podido hacer de tomcat porque la maquina se me paraba todo el rato y no me dejaba hacer el build):
+- La imagen de origen que será :debian:latest
+![Captura](https://user-images.githubusercontent.com/91874499/173312468-895891e7-5f98-42a0-a040-9ee6eabcb24d.PNG)
+5.Ahora creamos la imagen y le ponemos de nombre: debian-m
+![Captura](https://user-images.githubusercontent.com/91874499/173312841-fa9462b0-ff36-477f-810b-089dd5e47a19.PNG)
+6. Nos logeamos para poder hacer el push
+![Captura](https://user-images.githubusercontent.com/91874499/173313057-7b01c89b-cda9-4c30-9b9a-7489ff885d25.PNG)
+7. Ponemos a la imagen el nombre de usuario nuestro y comprobamos que se ha generado correctamente
+![Captura](https://user-images.githubusercontent.com/91874499/173313485-df8f2fab-5092-415d-afda-86feeaaf3ecf.PNG)
+8. Subimos la imagen generada a nuestro dockerhub
+![Captura](https://user-images.githubusercontent.com/91874499/173313744-6f66225e-88eb-48d8-8158-728bd5eae5c6.PNG)
+9. Comprobamos que se ha subido al docker hub
+![Captura](https://user-images.githubusercontent.com/91874499/173313884-3a51714c-24c5-4bc5-84f0-0bd3451e9348.PNG)
+
+10. Aquí el link de la imagen subida a mi dockerHub
+https://hub.docker.com/r/vaquer/debian-m 
+
+
+
+
